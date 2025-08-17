@@ -1,6 +1,6 @@
 @echo off
 REM === Change this to your image path ===
-set IMAGE=C:\Users\Public\Pictures\Sample Pictures\Desert.jpg
+set IMAGE=C:\Users\Shrey\Pictures\Saved Pictures\2.jpg
 set REMOTE=/sdcard/wallpaper.jpg
 
 adb push "%IMAGE%" "%REMOTE%"
