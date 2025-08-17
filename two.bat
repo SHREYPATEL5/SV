@@ -1,6 +1,6 @@
 @echo off
 :: Correct image path (no percent signs inside!)
-set "imagePath=C:\Users\Shrey\Pictures\Saved Pictures\2.jpg"
+set "imagePath="C:\Users\Shrey\Desktop\zzz.jpg""
 
 :: Set wallpaper path in registry
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "%imagePath%" /f
